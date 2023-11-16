@@ -1,0 +1,47 @@
+<mat-card class="cardproduct">
+    <mat-card-title>Detalles del producto</mat-card-title>
+    <mat-card-content class="cardproduct-content">
+        <p>
+            <mat-icon>person</mat-icon> <strong>ID:</strong> {{product.id}}
+        </p>
+        <p>
+            <mat-icon>person</mat-icon> <strong>Product:</strong> {{product.name}}
+        </p>
+        <p>
+            <mat-icon>person</mat-icon> <strong>Stock:</strong> {{product.stock}}
+        </p>
+        <p>
+            <mat-icon>person</mat-icon> <strong>Price:</strong> {{product.price}}
+        </p>    
+        <p>
+            <mat-icon>person</mat-icon> <strong>Category:</strong> {{product.category.name}}
+        </p>
+        <p>
+            <mat-icon>person</mat-icon> <strong>Date Added:</strong> {{product.date_added}}
+        </p>
+        
+
+
+
+    </mat-card-content>
+    <mat-card-actions align="end">
+        <button mat-raised-button type="button" (click)="UpgradeProduct()">
+            <mat-icon>edit</mat-icon>
+        </button>
+        <button mat-raised-button type="button" color="warn" (click)="closeProduct()">
+            <mat-icon>cancel</mat-icon>
+        </button>
+        <button mat-raised-button color="warn" type="button" (click)="deleteProduct()">
+            <mat-icon>delete</mat-icon> 
+          </button>
+    </mat-card-actions>
+
+
+
+
+
+
+
+</mat-card>
+
+

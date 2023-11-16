@@ -1,0 +1,41 @@
+/* Adicione isso ao seu arquivo CSS correspondente ao componente */
+
+.card {
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .card-contact {
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .buttons button {
+    width: 48%;
+  }
+  

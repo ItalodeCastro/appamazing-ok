@@ -1,0 +1,40 @@
+/* Adicione isso ao seu arquivo CSS correspondente ao componente */
+
+.card {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-content p {
+    margin: 8px 0;
+  }
+  
+  .mat-icon {
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  
+  .mat-card-actions {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+  }
+  
+  .mat-raised-button {
+    margin-left: 8px;
+  }
+  

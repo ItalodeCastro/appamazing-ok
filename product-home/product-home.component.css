@@ -1,0 +1,27 @@
+table {
+    margin: 20px 0px 0px 40px;
+    width: calc(100% - 80px);
+}
+
+.card{
+    margin: 20px 40px 0px 4px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons button{
+    margin-left: 1%;
+}
+
+.mat-stroked-button{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+
